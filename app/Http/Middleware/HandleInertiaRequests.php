@@ -37,7 +37,7 @@ class HandleInertiaRequests extends Middleware
     {
         return [
             'user.roles' => $request->user()?->roles->pluck('name') ?: [],
-            'user.permissions' => $request->user()?->getAllPermissionsViaRoles()->pluck('name') ?: [],
+            'user.permissions' => $request->user()?->getAllPermissions()->pluck('name') ?: []
 
         ];
     }

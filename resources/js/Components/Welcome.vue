@@ -6,6 +6,6 @@ import ApplicationLogo from '@/Components/ApplicationLogo.vue';
     <div>
 
 
-        
+    {{ $page.props }}
     </div>
 </template>

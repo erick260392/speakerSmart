@@ -32,6 +32,8 @@ function handleImageError() {
         <img id="background" class="absolute -left-20 top-0 max-w-[877px]" src="https://laravel.com/assets/img/welcome/background.svg" />
         <div class="relative min-h-screen flex flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white">
            <h1 class="text-4xl font-bold">Welcome to Laravel PLUS Vue</h1>
+
+           {{ $page.props }}
         </div>
     </div>
 </template>

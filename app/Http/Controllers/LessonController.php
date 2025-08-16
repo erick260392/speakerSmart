@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Cache\Events\RetrievingKey;
 use Illuminate\Http\Request;
 
 class LessonController extends Controller
@@ -11,7 +12,7 @@ class LessonController extends Controller
      */
     public function index()
     {
-        //
+        return "hello world";
     }
 
     /**
